@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+            <div class="container">
+                <h1>Gerador de Retângulos</h1>
+                <form action="saida.php" method="POST">
+                    
+                        <label for="largura">Largura:</label>
+                        <input type="number" name="largura" id="largura" class="form-control" required>
+                    
+                    
+                        <label for="altura">Altura:</label>
+                        <input type="number" name="altura" id="altura" class="form-control" required>
+                    
+                   
+                        <label for="char_borda">Caractere da Borda:</label>
+                        <input type="text" name="char_borda" id="char_borda" maxlength="1" class="form-control" required>
+                    
+                    
+                        <label for="cor_borda">Cor da Borda:</label>
+                        <select name="cor_borda" id="cor_borda" class="form-control" required>
+                            <option value="#FF0000">Vermelho</option>
+                            <option value="#0000FF">Azul</option>
+                            <option value="#008000">Verde</option>
+                            <option value="#FFFF00">Amarelo</option>
+                            <option value="#000000">Preto</option>
+                        </select>
+                    
+                    
+                        <label for="char_preenchimento">Caractere de Preenchimento:</label>
+                        <input type="text" name="char_preenchimento" id="char_preenchimento" maxlength="1" class="form-control" required>
+                    
+                    
+                        <label for="cor_preenchimento">Cor do Preenchimento:</label>
+                        <select name="cor_preenchimento" id="cor_preenchimento" class="form-control" required>
+                            <option value="#FF0000">Vermelho</option>
+                            <option value="#0000FF">Azul</option>
+                            <option value="#008000">Verde</option>
+                            <option value="#FFFF00">Amarelo</option>
+                            <option value="#000000">Preto</option>
+                        </select>
+                        <button type="submit">Gerar o Retangulo</button>
+                    </div>
+                    
+                </form>
+            </div>
+
+     </section>
+</body>
+</html>

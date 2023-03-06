@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+            <div class="container">
+                <h1>Analise do resultado das Provas</h1>
+                <form action="saida.php" method="POST">
+                    
+                        <label for="total01">Valor total da Prova 01:</label>
+                        <input type="number" name="total01" id="total01" step="0.01"  required>
+                    
+                    
+                        <label for="total02">Valor total da Prova 02:</label>
+                        <input type="number" name="total02" id="total02" step="0.01"  required>
+                    
+                   
+                        <label for="nota01">Nota da Prova 01:</label>
+                        <input type="number" name="nota01" id="nota01" step="0.01"  required>
+                    
+                        <label for="nota02">Nota da Prova 02:</label>
+                        <input type="number" name="nota02" id="nota02" step="0.01"  required>
+                    
+                        
+                        <button type="submit">Analisar</button>
+                    </div>
+                    
+                </form>
+            </div>
+
+     </section>
+</body>
+</html>
